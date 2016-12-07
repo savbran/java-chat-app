@@ -15,10 +15,11 @@ public class ChatServer implements Runnable {
 	 */
 	private void stampaInfo() {
 		System.out.println("ChatServer: Server avviato e in ascolto per stabilire connessioni con client...");
-		System.out.println();
+		System.out.println(" ");
 		System.out.println("Adesso avviare il ChatClient manualmente per farlo connettere al ChatServer.");
 		System.out.println("(aprire una console e in bin dare: java -classpath '../' java_chat_app.ChatClient)");
-		System.out.println();
+		System.out.println(" ");
+		
 	}
 
 	@Override
