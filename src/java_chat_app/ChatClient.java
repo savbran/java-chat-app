@@ -26,7 +26,7 @@ public class ChatClient implements Runnable {
 
 			// -----------Read message from server
 			String msg = null;
-			System.out.print("ChatClient: Messaggio dal server: ");
+			System.out.print("ChatClient: Messaggio dal server:  ");
 			msg = reader.readLine();
 			System.out.println(msg);
 
